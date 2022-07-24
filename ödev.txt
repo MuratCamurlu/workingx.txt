@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Ibrahim Mentor</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="branding">
+                <h2>Ibrahim <span>Mentor</span></h2>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="home.html" target="_blank">CONTACT</a></li>
+                    <li><a href="#margin">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="desc">
+            <h1>Ich bin ein Mensch , der ein Webentwickler sein möchte</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus corrupti soluta maxime debitis
+                doloremque et nulla placeat voluptatum cupiditate minus.</p>
+        </div>
+    </div>
+    <div id="margin">
+
+        <p>Portfolio</p>
+    </div>
+
+</body>
+
+</html>
+4:59
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Audiowide',
+        cursive;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+
+
+span {
+    color: red;
+}
+
+.header {
+    background-color: black;
+    height: 5rem;
+    border-bottom: 5px solid red;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+
+
+}
+
+
+
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header li {
+    display: inline;
+    padding: 0 1.5rem;
+}
+
+.margin {
+
+    background-color: aqua;
+    width: 50%;
+    height: 10rem;
+    margin: auto;
+    margin-top: 2rem;
+    border: 10px solid black;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.desc {
+
+    text-align: center;
+
+}
+
+.desc h1 {
+    padding-bottom: 1rem;
+    color: white;
+
+}
+
+.desc p {
+
+    color: white;
+}
+
+.main {
+
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(https://sergiotaco.github.io/html-css-workshop/images/banner.jpg);
+    background-size: cover;
+
+}
